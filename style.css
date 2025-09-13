@@ -57,11 +57,11 @@ button:hover {
 }
 
 .result-box {
-    margin-top: 2opx;
+    margin-top: 20px;
     padding: 15px;
     background: #f8f5ff;
     border-radius: 10px;
-    border: 10px solid #ddd;
+    border: 1px solid #ddd;
     text-align: left;
 }
 
@@ -83,6 +83,6 @@ button:hover {
     font-size: 13px;
     margin-top: 5px;
     color: #6b6b6b;
-    line-height: 1.5s;
+    line-height: 1.5;
     white-space: pre-line;
 }
