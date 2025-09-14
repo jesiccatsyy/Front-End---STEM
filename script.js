@@ -17,7 +17,7 @@ document.getElementById("convertBtn").addEventListener("click", () => {
 
     let decimalValue = parseInt(input, getBase(from));
     if (isNaN(decimalValue)) {
-        document.getElementById("result").textContent = "⚠ Invalid unput for " + from + "!";
+        document.getElementById("result").textContent = "⚠ Invalid input for " + from + "!";
         document.getElementById("steps").textContent = "";
         return;
     }
